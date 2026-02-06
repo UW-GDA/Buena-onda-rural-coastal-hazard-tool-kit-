@@ -18,6 +18,7 @@ Rural coastal hazard mitigation is therefore a critical planning priority. I pla
 
 
 ## Problem statement, question(s) and/or objective(s):
+Our objective is to develop an interactive web mapping tool for county governments and residents in identifying areas for improvement by visualizing risks related to coastal erosion and flooding.
 
 ## Datasets you will use (with links, if available)
 
