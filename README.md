@@ -45,7 +45,17 @@ The Packages we will be using is:
 8. Make all interactive elements like time bar and pop-up windows work 
 
 ## Expected outcomes
-The expected outcome is to have an ipyleaflet interactive map, that demostractes demographics on a choropleth map over where areas have been affected by erosion and flooding. To gain insight of the demograph that has been affacted and get an understand of the social change that has occured among the ridenst living there. The tool will be used for people to interact with to find any potential areas that can be used for resilience zones meaning help house or an area that allows the community to foster by providing homes or keep the economy. It also a tool to identify areas of hazards but esstainlly a tool that is easy accessible to understand and use for the public.
-## Any other relevant information, images/tables, references, etc.
+The expected outcome is to develop an interactive ipyleaflet map that demonstrates demographic patterns through a choropleth overlay highlighting areas affected by erosion and flooding. The goal is to gain insight into the populations that have been impacted and to better understand the social changes that have occurred among residents living in these areas.
 
+This tool will allow users to interactively explore potential locations that could serve as resilience zones, meaning areas that may provide housing opportunities or support community stability and economic continuity. In addition to identifying hazard-prone regions, the map is designed to be an accessible and user-friendly resource for the public, enabling a clearer understanding of environmental risks and their social implications.
+## Any other relevant information, images/tables, references, etc.
+In the College of the Built Environment, hazard mitigation planning research has primarily been conducted using static mapping. Developing a dynamic, interactive map would help address potential planning challenges and generate new insights. By allowing community partners, government agencies, and the public to explore data independently, this approach could enhance analysis and support more informed decision-making.
+
+For example, see [Westport's Comprehensive Plan Update](https://mitigate.be.uw.edu/research-and-practice-2/research-and-practice)
+
+While Grays Harbor County created a comprehensive 2024 Hazard Mitigation Plan, the document is lengthy and difficult for the general public to navigate. Because of its size and technical language, many residents may struggle to fully understand the risks affecting their communities.
+
+An interactive tool would make this information more accessible and engaging. By transforming the plan into a user-friendly platform, such as an interactive map or dashboard, residents could easily explore local hazards, understand potential impacts, and learn about preparedness strategies. This would empower community members to become more informed and proactive about environmental risks in their area.
+
+See [Grays Harbor County's H
 ## References
