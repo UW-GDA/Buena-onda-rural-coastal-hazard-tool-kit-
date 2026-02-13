@@ -57,5 +57,5 @@ While Grays Harbor County created a comprehensive 2024 Hazard Mitigation Plan, t
 
 An interactive tool would make this information more accessible and engaging. By transforming the plan into a user-friendly platform, such as an interactive map or dashboard, residents could easily explore local hazards, understand potential impacts, and learn about preparedness strategies. This would empower community members to become more informed and proactive about environmental risks in their area.
 
-See [Grays Harbor County's H
+See [Grays Harbor County's Hazard Mitigation Plan 2024](https://cms5.revize.com/revize/graysharborcounty/Emergency%20Management/Planning/Grays%20Harbor%20County%20HMP_Vol_1_07152024_Final_Adopted.pdf?t=202407181552150&t=202407181552150)
 ## References
