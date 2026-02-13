@@ -32,19 +32,20 @@ The tools we will be using is:
 - GeoPandas
 - Interactive maps
 The Packages we will be using is:
-- ipyleaflet
+- [ipyleaflet](https://github.com/jupyter-widgets/ipyleaflet)
 
 ## Planned methodology/approach
 1. Download and Clean raw data
 2. Filter data from NOAA like Flood Fraquency and Total Economy to be located in Grays Harbor County.
 3. Choose a Projection and set all the data sets to the same projection
-4. Start with creating the 19 year time frame for erasion and flooding data
-5. Add a time bar for the interactive elemet of showing erasion and flooding in the site throughout the year.
-6. Do some statistical analysis on the census and pull any significant data that overlay with erasion and flooding.
-7. Add demographic data as a
+4. Start with creating the 19 year time frame for erosion and flooding data
+5. Add a time bar for the interactive elemet of showing erosion and flooding in the site throughout the year.
+6. Do some statistical analysis on the census and pull any significant data that overlay with erosion and flooding data.
+7. Add demographic data on a choropleth layer on the basemap.
+8. Make all interactive elements like time bar and pop-up windows work 
 
 ## Expected outcomes
-
+The expected outcome is to have an ipyleaflet interactive map, that demostractes demographics on a choropleth map over where areas have been affected by erosion and flooding. To gain insight of the demograph that has been affacted and get an understand of the social change that has occured among the ridenst living there. The tool will be used for people to interact with to find any potential areas that can be used for resilience zones meaning help house or an area that allows the community to foster by providing homes or keep the economy. It also a tool to identify areas of hazards but esstainlly a tool that is easy accessible to understand and use for the public.
 ## Any other relevant information, images/tables, references, etc.
 
 ## References
