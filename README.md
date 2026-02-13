@@ -35,14 +35,15 @@ The Packages we will be using is:
 - [ipyleaflet](https://github.com/jupyter-widgets/ipyleaflet)
 
 ## Planned methodology/approach
-1. Download and Clean raw data
-2. Filter data from NOAA like Flood Fraquency and Total Economy to be located in Grays Harbor County.
-3. Choose a Projection and set all the data sets to the same projection
-4. Start with creating the 19 year time frame for erosion and flooding data
-5. Add a time bar for the interactive elemet of showing erosion and flooding in the site throughout the year.
+1. Download, Clean raw data, and set Grays Harbor County Boundary.
+2. Choose a Projection and set all the data sets to the same projection.
+3. Filter data from NOAA like Flood Fraquency and Total Economy to be located in Grays Harbor County.
+4. Start with creating the 19 year time frame for erosion and flooding data.
+5. Add a time scale bar for the interactive elemet of showing erosion and flooding in the site throughout the year.
 6. Do some statistical analysis on the census and pull any significant data that overlay with erosion and flooding data.
-7. Add demographic data on a choropleth layer on the basemap.
-8. Make all interactive elements like time bar and pop-up windows work 
+7. Add demographic data on a choropleth layer on the basemap as toggle.
+8. Overlay erosion/flood map to demographic data
+9. Test that interactive functions
 
 ## Expected outcomes
 The expected outcome is to develop an interactive ipyleaflet map that demonstrates demographic patterns through a choropleth overlay highlighting areas affected by erosion and flooding. The goal is to gain insight into the populations that have been impacted and to better understand the social changes that have occurred among residents living in these areas.
