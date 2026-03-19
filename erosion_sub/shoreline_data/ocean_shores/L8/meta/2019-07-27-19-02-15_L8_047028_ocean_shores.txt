@@ -1,7 +1,0 @@
-filename	2019-07-27-19-02-15_L8_047028_ocean_shores_ms.tif
-tile	047028
-epsg	32610
-acc_georef	7.366
-image_quality	9
-im_width	909
-im_height	639
