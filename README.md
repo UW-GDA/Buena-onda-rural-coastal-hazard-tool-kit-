@@ -140,5 +140,6 @@ Our initial reference/precedent Case Study:
 
 ## References:
 [1] © 2026 Cascadia CoPes Hub https://cascadiacopeshub.org/
+
 [2] Vousdoukas, M.I., Ranasinghe, R., Mentaschi, L. et al. Sandy coastlines under threat of erosion. Nat. Clim. Chang. 10, 260–263 (2020). https://doi.org/10.1038/s41558-020-0697-0
 
