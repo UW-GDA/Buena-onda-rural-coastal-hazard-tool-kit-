@@ -93,7 +93,7 @@ Furthermore, computational limitations posed constraints, as the process of down
 
 ## Results:
 <figure>
-    <img src="pictures_readme/ocean_shores_detection_shoreline.jpg" width="500"/>
+    <img src="pictures_readme/ocean_shores_detection_shorelines.jpg" width="500"/>
     <figcaption><em>Figure 2: Shoreline detection along Ocean Shores (2019–2024)</em></figcaption>
 </figure>
 
