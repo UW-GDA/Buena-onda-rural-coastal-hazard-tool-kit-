@@ -35,7 +35,7 @@ Our objective is to develop an interactive web mapping tool for county governmen
 
 ## Datasets
 - For erosion analysis we obtained satellite imagery (Landsat and Sentinel-2) by accessing data from [Google Earth Engine](https://earthengine.google.com/) through its Python API.
-- -For flood risk analysis, we obtained 1m LiDAR DEM data covering Grays Harbor County from USGS National Map Data Delivery https://apps.nationalmap.gov/downloader/ and Census county geodataframe from url = "https://www2.census.gov/geo/tiger/TIGER2023/COUNTY/tl_2023_us_county.zip"
+- For flood risk analysis, we obtained 1m LiDAR DEM data covering Grays Harbor County from USGS National Map Data Delivery https://apps.nationalmap.gov/downloader/ and Census county geodataframe from url = "https://www2.census.gov/geo/tiger/TIGER2023/COUNTY/tl_2023_us_county.zip"
  
 ## Tools/packages:
 The packages: 
@@ -74,7 +74,7 @@ We divided our work into two parts:
      - Compute time series of cross-shore distance along shore-normal transects
 2. Flood Risk Analysis
    - Data acquisition:
-       - Downloaded 1m LiDAR DEM data (114 tiles) covering Grays Harbor County from USGS National Map Data Delivery https://apps.nationalmap.gov/downloader/
+       - Downloaded 1m LiDAR DEM data (114 tiles) covering Grays Harbor County from USGS National Map Data Delivery (https://apps.nationalmap.gov/downloader/)
        - Downloaded counties geodataframe from census.gov (url = "https://www2.census.gov/geo/tiger/TIGER2023/COUNTY/tl_2023_us_county.zip")
    - Data processing:
        - Isolated Grays Harbor County geometry/polygon for clipping in 01_prepare_grays_harbor_geometry.ipynb
