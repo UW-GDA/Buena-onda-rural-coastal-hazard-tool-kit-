@@ -13,7 +13,7 @@ Members: Florencia Gonzalez-Martinez and Paulinne Anaya
 
 The idea to create a toolkit for rural coastal communities was inspired by Florencia's Capstone Studio Project: Coastal Community Adaptation: Planning and Designing Upland Expansion and Relocation
 
-The current capstone studio project examines strategies for hazard mitigation in rural coastal regions. The scope of work is centered in Washington's Coastal region, especially in Westport and Grayland. As coastal erosion occurs due to intense winter storms, high-energy waves, and other climate related factors. Home owners and communities in the rural coastal areas face the problem of losing their communities and home ownership.
+The current capstone studio project examines strategies for hazard mitigation in rural coastal regions. The scope of work is centered in Washington's Coastal region, especially in Westport and Grayland. As coastal erosion occurs due to intense winter storms, high-energy waves, and other climate related factors, home owners and communities in the rural coastal areas face the problem of losing their communities and home ownership.
 
 ## Background:
 
@@ -33,7 +33,7 @@ Our objective is to develop an interactive web mapping tool for county governmen
 - How has the shoreline of Ocean Shores changed over time?
 - Where are the floodrisk zones (low-lying areas) in Grays Harbor County?
 
-## Datasets
+## Datasets:
 - For erosion analysis we obtained satellite imagery (Landsat and Sentinel-2) by accessing data from [Google Earth Engine](https://earthengine.google.com/) through its Python API.
 - For flood risk analysis, we obtained 1m LiDAR DEM data covering Grays Harbor County from [USGS National Map Data Delivery] (https://apps.nationalmap.gov/downloader/) and [Census county geodataframe](https://www2.census.gov/geo/tiger/TIGER2023/COUNTY/tl_2023_us_county.zip)
  
@@ -139,6 +139,6 @@ Our initial reference/precedent Case Study:
 - [Inland Hydrology and Coastal Ocean Compound Flooding](https://coastaloceanmodels.noaa.gov/coupling/02_inland_coastal_coupling.html)
 
 ## References:
-[1] Cascadia Copes Hub
+[1] © 2026 Cascadia CoPes Hub https://cascadiacopeshub.org/
 [2] Vousdoukas, M.I., Ranasinghe, R., Mentaschi, L. et al. Sandy coastlines under threat of erosion. Nat. Clim. Chang. 10, 260–263 (2020). https://doi.org/10.1038/s41558-020-0697-0
 
