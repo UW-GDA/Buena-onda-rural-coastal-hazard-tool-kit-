@@ -1,6 +1,6 @@
 # Buena-onda-rural-coastal-hazard-tool-kit-
 <figure>
-    <img src="pictures_readme/ocean_shores_animation.gif" width="500"/>
+    <img src="pictures_readme/ocean_shores_shorelines.gif" width="500"/>
     <figcaption><em>Figure 1: Ocean Shores shorelines 2019-2024 Coastsat GIF</em></figcaption>
 </figure>
 
