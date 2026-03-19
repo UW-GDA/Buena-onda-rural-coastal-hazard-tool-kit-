@@ -1,5 +1,6 @@
 # Buena-onda-rural-coastal-hazard-tool-kit-
 Hello!
+<img src="pictures/ocean_shore.jpg" alt="Ocean Shores" width="500"/>
 
 Members: Florencia Gonzalez-Martinez and Paulinne Anaya
 
