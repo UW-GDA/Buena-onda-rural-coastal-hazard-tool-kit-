@@ -85,8 +85,8 @@ Furthermore, computational limitations posed constraints, as the process of down
 ## Changing the scope of work for erosion 
 Rather than analyzing the entire shoreline of Grays Harbor, we focused specifically on the shoreline along Ocean Shores. This decision improved compatibility with the CoastSat workflow and reduced computational demands, making the analysis more manageable given the memory limitations of the local system.
 <figure>
-  <img src="jpg_files/ocean_shores_animation_shorelines.gif" width="500">
-  <figcaption>Figure 2: Shoreline extraction using CoastSat</figcaption>
+  <img src=".../ocean_shores/jpg_files/ocean_shores_animation_shorelines.gif" width="500">
+  <figcaption>Figure 2: Shorelines animation GIF for Ocean Shores</figcaption>
 </figure>
 
 ## Results
