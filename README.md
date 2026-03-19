@@ -5,7 +5,7 @@
 </figure>
 
 
-Members: Florencia Gonzalez-Martinez and Paulinne Anaya
+## **Members: Florencia Gonzalez-Martinez and Paulinne Anaya**
 
 ## Topic Title: Rural Coastal Hazard Toolkit
 
