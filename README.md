@@ -35,7 +35,7 @@ Our objective is to develop an interactive web mapping tool for county governmen
 
 ## Datasets
 - For erosion analysis we obtained satellite imagery (Landsat and Sentinel-2) by accessing data from [Google Earth Engine](https://earthengine.google.com/) through its Python API.
-- For flood risk analysis, we obtained 1m LiDAR DEM data covering Grays Harbor County from [USGS National Map Data Delivery] (https://apps.nationalmap.gov/downloader/) and [Census county geodataframe](https://www2.census.gov/geo/tiger/TIGER2023/COUNTY/tl_2023_us_county.zip)
+- For flood risk analysis, we obtained 1m LiDAR DEM data covering Grays Harbor County from [USGS National Map Data Delivery](https://apps.nationalmap.gov/downloader/) and [Census county geodataframe](https://www2.census.gov/geo/tiger/TIGER2023/COUNTY/tl_2023_us_county.zip)
  
 ## Tools/packages:
 The packages: 
@@ -92,21 +92,22 @@ Working within a new environment such as CoastSat required extensive package ins
 Furthermore, computational limitations posed constraints, as the process of downloading and processing multiple satellite datasets (e.g., Landsat and Sentinel imagery) was slow and memory-intensive on local hardware. Consequently, a substantial portion of the project timeline was devoted to troubleshooting technical issues, which significantly impacted overall progress within the given deadline.
 
 ## Results:
+The following section provides an overview of the summary results for erosion. Discussion of results is held in the Conclusion.
 <figure>
     <img src="pictures_readme/ocean_shores_detection_shorelines.jpg" width="500"/>
     <figcaption><em>Figure 2: Shoreline detection along Ocean Shores (2019–2024)</em></figcaption>
 </figure>
-<br>
+
 <figure>
     <img src="pictures_readme/ocean_shores_contextily_map.jpg" width="500"/>
     <figcaption><em>Figure 3: Ocean Shores shoreline overlaid on basemap</em></figcaption>
 </figure>
-<br>
+
 <figure>
     <img src="pictures_readme/ocean_shores_transects.jpg" width="500"/>
     <figcaption><em>Figure 4: Illustration of five shore-normal transects along Ocean Shores, used for analyzing shoreline changes and cross-shore distances </em></figcaption>
 </figure>
-<br>
+
 <figure>
     <img src="pictures_readme/ocean_shores_timeseries_raw.jpg" width="500"/>
     <figcaption><em>Figure 5: Time series of cross-shore distances along each transect, where the intersection is computed as the median of shoreline points within a 25 m along-shore window.</em></figcaption>
