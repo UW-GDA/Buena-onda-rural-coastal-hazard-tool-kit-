@@ -66,11 +66,6 @@ The expected outcome is to develop an interactive ipyleaflet map that demonstrat
 
 This tool will allow users to interactively explore potential locations that could serve as resilience zones, meaning areas that may provide housing opportunities or support community stability and economic continuity. In addition to identifying hazard-prone regions, the map is designed to be an accessible and user-friendly resource for the public, enabling a clearer understanding of environmental risks and their social implications.
 
-## Short Comings
-Working within a new environment such as CoastSat required extensive package installation and a significant effort to understand the volume of data it can retrieve, as well as the accuracy and extent of shoreline detection it provides. A key challenge arose from the format of CoastSat outputs, which are generated as point data rather than continuous lines, making it difficult to represent shorelines as coherent linear features. Additional difficulties were encountered in converting these point datasets into array formats compatible with tools such as hvPlot for interactive visualization.
-
-Furthermore, computational limitations posed constraints, as the process of downloading and processing multiple satellite datasets (e.g., Landsat and Sentinel imagery) was slow and memory-intensive on local hardware. Consequently, a substantial portion of the project timeline was devoted to troubleshooting technical issues, which significantly impacted overall progress within the given deadline.
-
 ## Any other relevant information, images/tables, references, etc.
 In the College of the Built Environment, hazard mitigation planning research has primarily been conducted using static mapping. Developing a dynamic, interactive map would help address potential planning challenges and generate new insights. By allowing community partners, government agencies, and the public to explore data independently, this approach could enhance analysis and support more informed decision-making.
 
@@ -81,6 +76,29 @@ While Grays Harbor County created a comprehensive 2024 Hazard Mitigation Plan, t
 An interactive tool would make this information more accessible and engaging. By transforming the plan into a user-friendly platform, such as an interactive map or dashboard, residents could easily explore local hazards, understand potential impacts, and learn about preparedness strategies. This would empower community members to become more informed and proactive about environmental risks in their area.
 
 See [Grays Harbor County's Hazard Mitigation Plan 2024](https://cms5.revize.com/revize/graysharborcounty/Emergency%20Management/Planning/Grays%20Harbor%20County%20HMP_Vol_1_07152024_Final_Adopted.pdf?t=202407181552150&t=202407181552150)
+
+## Short Comings
+Working within a new environment such as CoastSat required extensive package installation and a significant effort to understand the volume of data it can retrieve, as well as the accuracy and extent of shoreline detection it provides. A key challenge arose from the format of CoastSat outputs, which are generated as point data rather than continuous lines, making it difficult to represent shorelines as coherent linear features. Additional difficulties were encountered in converting these point datasets into array formats compatible with tools such as hvPlot for interactive visualization.
+
+Furthermore, computational limitations posed constraints, as the process of downloading and processing multiple satellite datasets (e.g., Landsat and Sentinel imagery) was slow and memory-intensive on local hardware. Consequently, a substantial portion of the project timeline was devoted to troubleshooting technical issues, which significantly impacted overall progress within the given deadline.
+
+## Changing the scope of work for erosion 
+Rather than analyzing the entire shoreline of Grays Harbor, we focused specifically on the shoreline along Ocean Shores. This decision improved compatibility with the CoastSat workflow and reduced computational demands, making the analysis more manageable given the memory limitations of the local system.
+<figure>
+  <img src="jpg_files/ocean_shores_animation_shorelines.gif" width="500">
+  <figcaption>Figure 2: Shoreline extraction using CoastSat</figcaption>
+</figure>
+
+## Results
+<figure>
+  <img src="jpg_files/ocean_shores_animation_shorelines.gif" width="500">
+  <figcaption>Figure 2: Shoreline extraction using CoastSat</figcaption>
+</figure>
+
+## Lessons Learned
+
+## Future-Work
+
 ## References
 Our initial reference/precedent Case Study:
 - [Integrated GIS-hydrologic-hydraulic modeling to assess combined flood drivers in coastal regions: a case study of Bonita Bay, Florida](https://www.frontiersin.org/journals/water/articles/10.3389/frwa.2024.1468354/full)
