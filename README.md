@@ -1,7 +1,7 @@
 # Buena-onda-rural-coastal-hazard-tool-kit-
 <figure>
-    <img src="pictures/ocean_shore.jpg" alt="Ocean Shores" width="500"/>
-    <figcaption><em>Figure 1: Ocean Shores</em></figcaption>
+    <img src="pictures_readme/ocean_shores_animation.jpg" alt="Ocean Shores" width="500"/>
+    <figcaption><em>Figure 1: Ocean Shores shorelines 2019-2024 Coastsat GIF</em></figcaption>
 </figure>
 
 
@@ -74,8 +74,8 @@ We divided our work into two parts:
      - Compute time series of cross-shore distance along shore-normal transects
 2. Flood Risk Analysis
    - Data acquisition:
-       - Downloaded 1m LiDAR DEM data (114 tiles) covering Grays Harbor County from USGS National Map Data Delivery (https://apps.nationalmap.gov/downloader/)
-       - Downloaded counties geodataframe from census.gov (url = "https://www2.census.gov/geo/tiger/TIGER2023/COUNTY/tl_2023_us_county.zip")
+       - Downloaded 1m LiDAR DEM data (114 tiles) covering Grays Harbor County from [USGS National Map Data Delivery](https://apps.nationalmap.gov/downloader/)
+       - Downloaded counties geodataframe from [census.gov](https://www2.census.gov/geo/tiger/TIGER2023/COUNTY/tl_2023_us_county.zip)
    - Data processing:
        - Isolated Grays Harbor County geometry/polygon for clipping in 01_prepare_grays_harbor_geometry.ipynb
        - Created virtual GDAL dataset to mosaic DEM .tif files in notebook 02_ingest_dem_data.ipynb and clipped and resampled
@@ -92,6 +92,26 @@ Working within a new environment such as CoastSat required extensive package ins
 Furthermore, computational limitations posed constraints, as the process of downloading and processing multiple satellite datasets (e.g., Landsat and Sentinel imagery) was slow and memory-intensive on local hardware. Consequently, a substantial portion of the project timeline was devoted to troubleshooting technical issues, which significantly impacted overall progress within the given deadline.
 
 ## Results:
+<figure>
+    <img src="pictures_readme/ocean_shores_detection_shoreline" alt="Ocean Shores" width="500"/>
+    <figcaption><em>Figure 2: Shoreline detection along Ocean Shores (2019–2024)</em></figcaption>
+</figure>
+
+<figure>
+    <img src="pictures_readme/ocean_shores_contextily_map" alt="Ocean Shores" width="500"/>
+    <figcaption><em>Figure 3: Ocean Shores shoreline overlaid on basemap</em></figcaption>
+</figure>
+
+<figure>
+    <img src="pictures_readme/ocean_shores_transects" alt="Ocean Shores" width="500"/>
+    <figcaption><em>Figure 4: Illustration of five shore-normal transects along Ocean Shores, used for analyzing shoreline changes and cross-shore distances </em></figcaption>
+</figure>
+
+<figure>
+    <img src="pictures_readme/ocean_shores_timeseries_raw" alt="Ocean Shores" width="500"/>
+    <figcaption><em>Figure 5: Time series of cross-shore distances along each transect, where the intersection is computed as the median of shoreline points within a 25 m along-shore window.</em></figcaption>
+</figure>
+
 
 ## Conclusions:
 
