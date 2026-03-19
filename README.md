@@ -1,6 +1,6 @@
 # Buena-onda-rural-coastal-hazard-tool-kit-
 <figure>
-    <img src="pictures_readme/ocean_shores_animation.jpg" alt="Ocean Shores" width="500"/>
+    <img src="pictures_readme/ocean_shores_animation.jpg" width="500"/>
     <figcaption><em>Figure 1: Ocean Shores shorelines 2019-2024 Coastsat GIF</em></figcaption>
 </figure>
 
@@ -93,22 +93,22 @@ Furthermore, computational limitations posed constraints, as the process of down
 
 ## Results:
 <figure>
-    <img src="pictures_readme/ocean_shores_detection_shoreline" alt="Ocean Shores" width="500"/>
+    <img src="pictures_readme/ocean_shores_detection_shoreline" width="500"/>
     <figcaption><em>Figure 2: Shoreline detection along Ocean Shores (2019–2024)</em></figcaption>
 </figure>
 
 <figure>
-    <img src="pictures_readme/ocean_shores_contextily_map" alt="Ocean Shores" width="500"/>
+    <img src="pictures_readme/ocean_shores_contextily_map" width="500"/>
     <figcaption><em>Figure 3: Ocean Shores shoreline overlaid on basemap</em></figcaption>
 </figure>
 
 <figure>
-    <img src="pictures_readme/ocean_shores_transects" alt="Ocean Shores" width="500"/>
+    <img src="pictures_readme/ocean_shores_transects" width="500"/>
     <figcaption><em>Figure 4: Illustration of five shore-normal transects along Ocean Shores, used for analyzing shoreline changes and cross-shore distances </em></figcaption>
 </figure>
 
 <figure>
-    <img src="pictures_readme/ocean_shores_timeseries_raw" alt="Ocean Shores" width="500"/>
+    <img src="pictures_readme/ocean_shores_timeseries_raw" width="500"/>
     <figcaption><em>Figure 5: Time series of cross-shore distances along each transect, where the intersection is computed as the median of shoreline points within a 25 m along-shore window.</em></figcaption>
 </figure>
 
