@@ -1,0 +1,7 @@
+filename	2023-07-29-19-07-50_L8_048027_ocean_shores_ms.tif
+tile	048027
+epsg	32610
+acc_georef	7.446
+image_quality	9
+im_width	908
+im_height	1116

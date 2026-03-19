@@ -1,0 +1,7 @@
+filename	2019-07-28-19-31-32_S2_10TCT_ocean_shores_ms.tif
+tile	10TCT
+epsg	32610
+acc_georef	PASSED
+image_quality	PASSED
+im_width	371
+im_height	1675
