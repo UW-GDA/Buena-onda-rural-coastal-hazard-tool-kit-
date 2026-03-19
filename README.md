@@ -35,7 +35,7 @@ Our objective is to develop an interactive web mapping tool for county governmen
 
 ## Datasets
 - For erosion analysis we obtained satellite imagery (Landsat and Sentinel-2) by accessing data from [Google Earth Engine](https://earthengine.google.com/) through its Python API.
-- For flood risk analysis, we obtained 1m LiDAR DEM data covering Grays Harbor County from [USGS National Map Data Delivery](https://apps.nationalmap.gov/downloader/) and [Census county geodataframe](https://www2.census.gov/geo/tiger/TIGER2023/COUNTY/tl_2023_us_county.zip)
+- For flood risk analysis, we obtained 1m LiDAR DEM data covering Grays Harbor County from [USGS National Map Data Delivery] (https://apps.nationalmap.gov/downloader/) and [Census county geodataframe](https://www2.census.gov/geo/tiger/TIGER2023/COUNTY/tl_2023_us_county.zip)
  
 ## Tools/packages:
 The packages: 
@@ -92,31 +92,35 @@ Working within a new environment such as CoastSat required extensive package ins
 Furthermore, computational limitations posed constraints, as the process of downloading and processing multiple satellite datasets (e.g., Landsat and Sentinel imagery) was slow and memory-intensive on local hardware. Consequently, a substantial portion of the project timeline was devoted to troubleshooting technical issues, which significantly impacted overall progress within the given deadline.
 
 ## Results:
-The following section provides an overview of the summary results for erosion. Discussion of results is held in the Conclusion.
 <figure>
     <img src="pictures_readme/ocean_shores_detection_shorelines.jpg" width="500"/>
     <figcaption><em>Figure 2: Shoreline detection along Ocean Shores (2019–2024)</em></figcaption>
 </figure>
-
+<br>
 <figure>
     <img src="pictures_readme/ocean_shores_contextily_map.jpg" width="500"/>
     <figcaption><em>Figure 3: Ocean Shores shoreline overlaid on basemap</em></figcaption>
 </figure>
-
+<br>
 <figure>
     <img src="pictures_readme/ocean_shores_transects.jpg" width="500"/>
     <figcaption><em>Figure 4: Illustration of five shore-normal transects along Ocean Shores, used for analyzing shoreline changes and cross-shore distances </em></figcaption>
 </figure>
-
+<br>
 <figure>
     <img src="pictures_readme/ocean_shores_timeseries_raw.jpg" width="500"/>
     <figcaption><em>Figure 5: Time series of cross-shore distances along each transect, where the intersection is computed as the median of shoreline points within a 25 m along-shore window.</em></figcaption>
 </figure>
 
 
-## Conclusions:
+## Conclusions: 
+Due to limitations, the work that we did not meet the scope of our original proposal.
+We did however gain valuable experience in working on this project. 
+
+Based on results from our limited test case using CoastSAT to interpret accretion and erosion along five manually selected transects in August from 2019 - 2024, we see that the northern most transect (transect 1) shows accretion from 2019 to 2022 and then erosion between 2023 and stability in 2024. The pattern for transect 2 is similar in that it peaks in accretion in 2022. Compared to transects 3, 4 and 5, however, there is not a significant pattern except for the occurence of both accretion and erosion. The difference between these five plots seems to exhibit spatial variability, "with erosive and accretive tendencies interchanging across regions and along nearby coastal segments[2]" which is typical of sandy coastlines and their natural sediment cycles.
 
 ## Potential Future Directions:
+- Include tidal correction and beach slope estimation in CoastSAT to produce longer time-series
 - Adding Census data for developing an interactive ipyleaflet map that demonstrates demographic patterns through a choropleth overlay highlighting areas affected by erosion and flooding
 - Considering sea level rise projections for flood risk analysis
 - Visualize satellite images corresponding to historic flood datasets
@@ -128,9 +132,13 @@ In the College of the Built Environment, hazard mitigation planning research has
 For example, see [Westport's Comprehensive Plan Update](https://mitigate.be.uw.edu/research-and-practice-2/research-and-practice)
 
 
-
 See [Grays Harbor County's Hazard Mitigation Plan 2024](https://cms5.revize.com/revize/graysharborcounty/Emergency%20Management/Planning/Grays%20Harbor%20County%20HMP_Vol_1_07152024_Final_Adopted.pdf?t=202407181552150&t=202407181552150)
-## References:
+
 Our initial reference/precedent Case Study:
 - [Integrated GIS-hydrologic-hydraulic modeling to assess combined flood drivers in coastal regions: a case study of Bonita Bay, Florida](https://www.frontiersin.org/journals/water/articles/10.3389/frwa.2024.1468354/full)
 - [Inland Hydrology and Coastal Ocean Compound Flooding](https://coastaloceanmodels.noaa.gov/coupling/02_inland_coastal_coupling.html)
+
+## References:
+[1] Cascadia Copes Hub
+[2] Vousdoukas, M.I., Ranasinghe, R., Mentaschi, L. et al. Sandy coastlines under threat of erosion. Nat. Clim. Chang. 10, 260–263 (2020). https://doi.org/10.1038/s41558-020-0697-0
+
