@@ -96,6 +96,10 @@ Furthermore, computational limitations posed constraints, as the process of down
 ## Conclusions:
 
 ## Potential Future Directions:
+- Adding Census data for developing an interactive ipyleaflet map that demonstrates demographic patterns through a choropleth overlay highlighting areas affected by erosion and flooding
+- Considering sea level rise projections for flood risk analysis
+- Visualize satellite images corresponding to historic flood datasets
+- Explore King Tide flood prevalence
 
 ## Additional information:
 In the College of the Built Environment, hazard mitigation planning research has primarily been conducted using static mapping. Developing a dynamic, interactive map would help address potential planning challenges and generate new insights. By allowing community partners, government agencies, and the public to explore data independently, this approach could enhance analysis and support more informed decision-making.
