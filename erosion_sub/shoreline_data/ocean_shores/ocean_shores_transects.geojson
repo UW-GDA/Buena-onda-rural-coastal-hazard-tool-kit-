@@ -1,0 +1,12 @@
+{
+"type": "FeatureCollection",
+"name": "ocean_shores_transects",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::32610" } },
+"features": [
+{ "type": "Feature", "properties": { "name": "1" }, "geometry": { "type": "LineString", "coordinates": [ [ 409815.845111253438517, 5200805.580209164880216 ], [ 410900.260524625889957, 5200846.195018654689193 ] ] } },
+{ "type": "Feature", "properties": { "name": "2" }, "geometry": { "type": "LineString", "coordinates": [ [ 410058.1436212057597, 5200037.960309811867774 ], [ 410944.293762794113718, 5200260.414103539660573 ] ] } },
+{ "type": "Feature", "properties": { "name": "3" }, "geometry": { "type": "LineString", "coordinates": [ [ 410186.934878267638851, 5199335.324105641804636 ], [ 411245.430569386167917, 5199579.01296257879585 ] ] } },
+{ "type": "Feature", "properties": { "name": "4" }, "geometry": { "type": "LineString", "coordinates": [ [ 410169.582893772458192, 5198534.724361885339022 ], [ 411340.824862019682769, 5198803.468238161876798 ] ] } },
+{ "type": "Feature", "properties": { "name": "5" }, "geometry": { "type": "LineString", "coordinates": [ [ 410188.376406078750733, 5197938.174659199081361 ], [ 411155.008871931291651, 5198112.818340004421771 ] ] } }
+]
+}

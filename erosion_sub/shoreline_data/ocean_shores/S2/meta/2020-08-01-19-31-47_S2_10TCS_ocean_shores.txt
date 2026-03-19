@@ -1,0 +1,7 @@
+filename	2020-08-01-19-31-47_S2_10TCS_ocean_shores_ms.tif
+tile	10TCS
+epsg	32610
+acc_georef	PASSED
+image_quality	PASSED
+im_width	373
+im_height	399

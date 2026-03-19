@@ -1,0 +1,7 @@
+filename	2020-07-29-19-01-46_L8_047027_ocean_shores_ms.tif
+tile	047027
+epsg	32610
+acc_georef	4.269
+image_quality	9
+im_width	908
+im_height	1116
