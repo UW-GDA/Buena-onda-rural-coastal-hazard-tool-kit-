@@ -25,7 +25,7 @@ Rural coastal hazard mitigation is a critical planning priority. By developing a
 Our objective is to develop an interactive web mapping tool for county governments and residents in identifying areas for improvement by visualizing risks related to coastal erosion and flooding. Tentatively we are considering looking at Washington coastal communities of Westport and Grayland and would like to compile 19 year tidal data and satellite images of the coastline to map shoreline change due to erosion. To get a better understanding of communities that are affected by coastal erosion and flooding a layer showing census data will display demographics impacted.
 
 ## Datasets you will use (with links, if available)
-*We obtained satellite imagery (Landsat and Sentinel-2) by accessing data from [Google Eeath Engine](https://earthengine.google.com/) through its Python API.
+- We obtained satellite imagery (Landsat and Sentinel-2) by accessing data from [Google Eeath Engine](https://earthengine.google.com/) through its Python API.
 
 
 ## Tools/packages you’ll use (with links)
@@ -42,7 +42,7 @@ The tools we will be using is:
 - ee
 
 ## Planned methodology/approach
-ivided our work into two parts:
+We divided our work into two parts:
 1. Erosion Analysis
    - Retrieval of satellite images for the region of interest from Google Earth Engine
      - Call a function to check availability of satellite images (L8, L9, S2) before loading
@@ -65,6 +65,12 @@ ivided our work into two parts:
 The expected outcome is to develop an interactive ipyleaflet map that demonstrates demographic patterns through a choropleth overlay highlighting areas affected by erosion and flooding. The goal is to gain insight into the populations that have been impacted and to better understand the social changes that have occurred among residents living in these areas.
 
 This tool will allow users to interactively explore potential locations that could serve as resilience zones, meaning areas that may provide housing opportunities or support community stability and economic continuity. In addition to identifying hazard-prone regions, the map is designed to be an accessible and user-friendly resource for the public, enabling a clearer understanding of environmental risks and their social implications.
+
+## Short Comings
+Working within a new environment such as CoastSat required extensive package installation and a significant effort to understand the volume of data it can retrieve, as well as the accuracy and extent of shoreline detection it provides. A key challenge arose from the format of CoastSat outputs, which are generated as point data rather than continuous lines, making it difficult to represent shorelines as coherent linear features. Additional difficulties were encountered in converting these point datasets into array formats compatible with tools such as hvPlot for interactive visualization.
+
+Furthermore, computational limitations posed constraints, as the process of downloading and processing multiple satellite datasets (e.g., Landsat and Sentinel imagery) was slow and memory-intensive on local hardware. Consequently, a substantial portion of the project timeline was devoted to troubleshooting technical issues, which significantly impacted overall progress within the given deadline.
+
 ## Any other relevant information, images/tables, references, etc.
 In the College of the Built Environment, hazard mitigation planning research has primarily been conducted using static mapping. Developing a dynamic, interactive map would help address potential planning challenges and generate new insights. By allowing community partners, government agencies, and the public to explore data independently, this approach could enhance analysis and support more informed decision-making.
 
