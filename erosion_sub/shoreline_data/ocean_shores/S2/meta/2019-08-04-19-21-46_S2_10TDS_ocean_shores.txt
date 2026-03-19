@@ -1,7 +1,0 @@
-filename	2019-08-04-19-21-46_S2_10TDS_ocean_shores_ms.tif
-tile	10TDS
-epsg	32610
-acc_georef	PASSED
-image_quality	PASSED
-im_width	1369
-im_height	397

@@ -1,7 +1,0 @@
-filename	2024-07-28-19-21-46_S2_10TCS_ocean_shores_ms.tif
-tile	10TCS
-epsg	32610
-acc_georef	PASSED
-image_quality	PASSED
-im_width	373
-im_height	399

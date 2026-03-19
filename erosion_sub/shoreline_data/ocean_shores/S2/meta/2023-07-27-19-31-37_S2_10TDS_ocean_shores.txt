@@ -1,7 +1,0 @@
-filename	2023-07-27-19-31-37_S2_10TDS_ocean_shores_ms.tif
-tile	10TDS
-epsg	32610
-acc_georef	PASSED
-image_quality	PASSED
-im_width	629
-im_height	398
