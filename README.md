@@ -1,6 +1,10 @@
 # Buena-onda-rural-coastal-hazard-tool-kit-
+<figure>
+    <img src="pictures/ocean_shore.jpg" alt="Ocean Shores" width="500"/>
+    <figcaption><em>Figure 1: Ocean Shores</em></figcaption>
+</figure>
+
 Hello!
-<img src="pictures/ocean_shore.jpg" alt="Ocean Shores" width="500"/>
 
 Members: Florencia Gonzalez-Martinez and Paulinne Anaya
 
@@ -21,30 +25,41 @@ Rural coastal hazard mitigation is a critical planning priority. By developing a
 Our objective is to develop an interactive web mapping tool for county governments and residents in identifying areas for improvement by visualizing risks related to coastal erosion and flooding. Tentatively we are considering looking at Washington coastal communities of Westport and Grayland and would like to compile 19 year tidal data and satellite images of the coastline to map shoreline change due to erosion. To get a better understanding of communities that are affected by coastal erosion and flooding a layer showing census data will display demographics impacted.
 
 ## Datasets you will use (with links, if available)
-The datasets we will use are broken down from LiDAR to Flood Fraquency from NOAA to portray interactive changes in the coastal land in the 19 year time frame. An overlay of census data and coastal total economy data from NOAA for demographic analysis to get understanding of who is being affacted. 
-* Here is the census data for [Harbor County, Washington](https://data.census.gov/table?q=Grays+Harbor+County,+Washington&y=2000)
-* Here is Coastal LiDAR data for [Harbor County, Washington](https://coast.noaa.gov/dataviewer/#/lidar/search/-13856847.26738303,5908019.272588322,-13710174.710064648,6029677.328139233)
-* Here is Flood Fraquency for [Harbor County, Washington](https://coast.noaa.gov/slrdata/)
-* Here is Total Economy (Coastal) for [Harbor County, Washington](https://coast.noaa.gov/digitalcoast/data/coastaleconomy.html)
+*We obtained satellite imagery (Landsat and Sentinel-2) by accessing data from [Google Eeath Engine](https://earthengine.google.com/) through its Python API.
 
 
 ## Tools/packages you’ll use (with links)
+The packages: 
+- [Coastsat](https://github.com/kvos/CoastSat)
+
 The tools we will be using is:
-- GeoPandas
-- Interactive maps
-The Packages we will be using is:
-- [ipyleaflet](https://github.com/jupyter-widgets/ipyleaflet)
+- matplotlib
+- pickle
+- numpy
+- os
+- contextily
+- datetime
+- ee
 
 ## Planned methodology/approach
-1. Download, Clean raw data, and set Grays Harbor County Boundary.
-2. Choose a Projection and set all the data sets to the same projection.
-3. Filter data from NOAA like Flood Fraquency and Total Economy to be located in Grays Harbor County.
-4. Start with creating the 19 year time frame for erosion and flooding data.
-5. Add a time scale bar for the interactive elemet of showing erosion and flooding in the site throughout the year.
-6. Do some statistical analysis on the census and pull any significant data that overlay with erosion and flooding data.
-7. Add demographic data on a choropleth layer on the basemap as toggle.
-8. Overlay erosion/flood map to demographic data
-9. Test that interactive functions
+ivided our work into two parts:
+1. Erosion Analysis
+   - Retrieval of satellite images for the region of interest from Google Earth Engine
+     - Call a function to check availability of satellite images (L8, L9, S2) before loading
+     - Use a for loop to avoid downloading ~2,000 images
+     - Apply a time range of ±5 days from 07-27 for each year
+   - Shoreline extraction at sub-pixel resolution
+     - Set cloud threshold (`cloud_thresh`)
+     - Select spatial reference system (`output_epsg`) for shoreline coordinates
+     - Manually digitize a reference shoreline to identify outliers and false detections
+     - Extract batches of shoreline detections as 2D shorelines
+     - Classify features: sand, ocean, shoreline, and white water
+   - Shoreline data processing
+     - Extract shorelines into points per year
+   - Shoreline analysis
+     - Intersect shorelines with cross-shore transects
+     - Compute time series of cross-shore distance along shore-normal transects
+
 
 ## Expected outcomes
 The expected outcome is to develop an interactive ipyleaflet map that demonstrates demographic patterns through a choropleth overlay highlighting areas affected by erosion and flooding. The goal is to gain insight into the populations that have been impacted and to better understand the social changes that have occurred among residents living in these areas.
