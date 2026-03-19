@@ -73,13 +73,13 @@ We divided our work into two parts:
      - Intersect shorelines with cross-shore transects
      - Compute time series of cross-shore distance along shore-normal transects
 2. Flood Risk Analysis
-   -Data acquisition:
-       Downloaded 1m LiDAR DEM data (114 tiles) covering Grays Harbor County from USGS National Map Data Delivery https://apps.nationalmap.gov/downloader/
-       Downloaded counties geodataframe from census.gov (url = "https://www2.census.gov/geo/tiger/TIGER2023/COUNTY/tl_2023_us_county.zip")
-   -Data processing:
-       Isolated Grays Harbor County geometry/polygon for clipping in 01_prepare_grays_harbor_geometry.ipynb
-       Created virtual GDAL dataset to mosaic DEM .tif files in notebook 02_ingest_dem_data.ipynb and clipped and resampled
-   -Basic flood risk visualization in 03_visualize_flod_risk.ipynb to map areas below 2 m
+   - Data acquisition:
+       - Downloaded 1m LiDAR DEM data (114 tiles) covering Grays Harbor County from USGS National Map Data Delivery https://apps.nationalmap.gov/downloader/
+       - Downloaded counties geodataframe from census.gov (url = "https://www2.census.gov/geo/tiger/TIGER2023/COUNTY/tl_2023_us_county.zip")
+   - Data processing:
+       - Isolated Grays Harbor County geometry/polygon for clipping in 01_prepare_grays_harbor_geometry.ipynb
+       - Created virtual GDAL dataset to mosaic DEM .tif files in notebook 02_ingest_dem_data.ipynb and clipped and resampled
+   - Basic flood risk visualization in 03_visualize_flod_risk.ipynb to map areas below 2 m
 
 ## Expected outcomes:
 The expected outcome is to develop an interactive ipyleaflet map that demonstrates demographic patterns through a choropleth overlay highlighting areas affected by erosion and flooding. The goal is to gain insight into the populations that have been impacted and to better understand the social changes that have occurred among residents living in these areas.
